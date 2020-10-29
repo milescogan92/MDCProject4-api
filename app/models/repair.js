@@ -13,6 +13,10 @@ const repairSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  mileage: {
+    type: Number,
+    required: true
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
