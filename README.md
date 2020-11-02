@@ -20,5 +20,16 @@ One issue that came up during development was that the index feature for repairs
 
 In version two, I would like this app to have the ability to track multiple cars for a single user, rather than assuming a user has a single car.  Addtionally, I wanted to spend more time on the styling for this project but got sidetracked by events in my personal life.  Version two would add more fonts, animations, and use of bootstrap.
 
-Deployed front end site:
-Deployed back end site:
+Route Catalog:
+- index all repairs for a user
+- create a new repair
+- update an existing repair
+- delete an existing repair
+
+Set Up/Install Instructions:
+- This back end application is deployed through heroku on the back end.  It can also be downloaded and run locally but running 'npm run server' on your machine in tandem with 'grunt serve' on the front end application.
+
+
+
+Deployed front end site: https://milescogan92.github.io/MDCProject4-client/
+Deployed back end site: https://arcane-lake-50388.herokuapp.com/
